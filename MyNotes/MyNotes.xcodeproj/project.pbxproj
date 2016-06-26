@@ -207,6 +207,7 @@
 				TargetAttributes = {
 					BEEC0D8F1D1FE2A7009090BC = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 9W5JXM63SX;
 					};
 					BEEC0DA81D1FE2A7009090BC = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -413,10 +414,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = MyNotes/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.serge.MyNotes;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -424,10 +427,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = MyNotes/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.serge.MyNotes;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -496,6 +501,7 @@
 				BEEC0DBF1D1FE2A7009090BC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BEEC0DC01D1FE2A7009090BC /* Build configuration list for PBXNativeTarget "MyNotesTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +510,7 @@
 				BEEC0DC21D1FE2A7009090BC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BEEC0DC31D1FE2A7009090BC /* Build configuration list for PBXNativeTarget "MyNotesUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +519,7 @@
 				BEEC0DC51D1FE2A7009090BC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
